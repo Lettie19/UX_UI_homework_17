@@ -57,10 +57,6 @@ section {
 }
 
 .heroimg{ 
-display: flex
-left: 55.56%;
-right: 8.33%;
-top: 4.87%;
-bottom: 85.06%;
+display: flex;
 }
 
