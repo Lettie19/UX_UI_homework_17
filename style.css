@@ -74,8 +74,8 @@ padding: 100px;
     display: flex;
 }
 
-#heroimg left{
-    padding: 200px;
+.left{
+    padding: 5px;
 }
 
 .hireme{
