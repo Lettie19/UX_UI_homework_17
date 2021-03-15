@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leticia Tientcheu Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
     <style>
+        
         body {
             font-family:sans-serif
         }
@@ -26,53 +33,59 @@
      </nav>    
  </header>
 </section>
-  <section id="heroimg">
+  <section class="heroimg">
       <div class="herotext-container">
         <div class="left">
            <p> Hey, I'm Leticia</p>
-          <img src="images/image 297.png">
+          <img src="images/handwave.png">
           <p>I solve design problems with empathy and a firm evaluation and assessment of the "why" behind design decisions.</p>
           <br>Some of my favorite tools to use are Figma, Miro and Adobe XD.</br>
-       <br><button class="downloadcv">Download My CV</button><br><button class="hireme">Hire Me</button> 
-        </div>  
-        
+       
+         <div class="downloadbutton">
+       <button> Download My CV </button>
+       </div>
+       <div class="hiremebutton">
+        <button> Hire Me</button>
+        </div>
+        </div>
         <div class="right">
-            <img alt="heroimg" src="Images/Scenes06.png">
+            <img alt="scene" class="heroscene" src="Images/Scenes06.png">
         </div>
       </div>
       <div class="heroicons">
-         <img alt="heroicons" src="images/icons-1.png"> 
+         <img src="images/bi_linkedin.png"> 
+         <img src="images/bi_envelope-fill.png"> 
       </div>
           
   </section>
   <section class="maincontent">
       <div class="contentheader">
-      <h2>PROJECTS</h2>
-      <h3>What I've been working on</h3>
+      <h1>PROJECTS</h1>
+      <h2>What I've been working on</h2>
       </div>
       <div class="grid-container">
           <div class="casetudy1text">
-           <h2> Increasing the ICAF's user engagement</h2>
-            <p4>Redesigned this non-profit's website to make it more usable and increase visitors' engagement via donations.
-           </p4>
+           <h3> Increasing the ICAF's user engagement</h2>
+            <p>Redesigned this non-profit's website to make it more usable and increase visitors' engagement via donations.
+           </p>
           </div>
          <div class="casestudyimg">  
-             <img src="images/Group 6.png">   
+             <img src="images/Casestudy1.png">   
          </div>
       <div class="grid-container">
             <div class="casetudy2text">
-             <h3> Reimagining an events' reminder mobile App</h3>
-              <p5>Designed and events reminder app that solves the everyday problems around choosing the right gift and remembering all major occasions in our lives
-             </p5>
+             <h4> Reimagining an events' reminder mobile App</h4>
+              <p>Designed and events reminder app that solves the everyday problems around choosing the right gift and remembering all major occasions in our lives
+             </p>
             </div>
          <div class="casestudyimg">  
-            <img src="images/Group 32.png">   
+            <img src="images/Casestudy2.png">   
         </div>
         <div class="grid-container">
             <div class="casetudy3text">
-             <h4> Placeholder for final case</h4>
-              <p5>Designed...
-             </p5>
+             <h5> Placeholder for final case</h5>
+              <p>Designed...
+             </p>
             </div>
          <div class="casestudyimg">  
             <img src="Images/Rectangle 8.png">   
@@ -81,11 +94,11 @@
       <footer>
    <div class="block_element">
       <form>
-        <h3>Name</h3>
+        <h6>Name</h6>
         <input type="text" placeholder="Full Name"></input>
-        <h3>Email:</h3>
+        <h7>Email:</h7>
         <input type="text" placeholder="Email"></input>
-        <h3>Message</h3>
+        <h8>Message</h8>
         <input type="text" placeholder="Type your message here..."></input>
         <input class="submit" type="submit" value="Send"></input>
       </form>

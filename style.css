@@ -1,13 +1,15 @@
 
 body {
-    background-color:#E4E3DE
-    ;
+    background-color:#E4E3DE;
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
+    color:#797972 ;
 }
 
 ul { 
     list-style:none
+    
 }
 a {
     text-decoration:none; 
@@ -18,8 +20,7 @@ nav {
 	justify-content: space-between;
 	align-items:center;
 	height:60px;
-	background-color:#E4E3DE
-    ;
+	background-color:#E4E3DE;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.1);
 	padding:0px 5%;
 }
@@ -30,6 +31,7 @@ body {
 }
 nav ul {
     display: flex;
+
 }
 .toggle {
     display: none;
@@ -37,21 +39,21 @@ nav ul {
 
 nav ul li a{
 	margin:30px;
-	font-family:sans-serif;
+	font-family:'Nunito', sans-serif;
 	color:#797972;
 	font-size: 18px;
 	font-weight:normal;
 }
 
 .logo {
-    font-family: sans-serif;
+    font-family: 'nunito', sans-serif;
     color: #797972;
     font-size: 18px;
     font-weight: bolder;
 }
 .active {
     color: #797972;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 section {
@@ -64,27 +66,84 @@ section {
     
 }
 
-#heroimg{ 
+.heroimg{ 
 background-color: #B4D0CB;
-height: 75vh;
-padding: 100px;
+width: 1440px;
+height: 900px;
+top: 0px;
+left: -1px;
+box-sizing: border-box;
 }
 
-.herotext-container {
-    display: flex;
+.right {
+    padding-right: 5%;
+   padding-top: 5%;
+}
+.heroscene {
+    width: 520px;
+    float: right;  
+    height: 410px;
 }
 
-.left{
-    padding: 5px;
+h1 {
+    text-align: center;
+    color: rgba(123,177,167,0.2);
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+font-size: 85px;
+line-height: 127px;
+font-style: normal;
+text-transform: uppercase;
+position: absolute;
+left: 499px;
+top: 918px;
+width: 442px;
 }
 
-.hireme{
-    display: inline-block;
-}
-.heroicons img {
-   display: center;
+h2 {
+    text-align: center;
+    color:#797972;
+    font-family:'nunito', sans-serif;
+    font-weight:normal;
+   font-size: 50px;
+   line-height: 135px;
+   font-style: normal;
 }
 
-.contenheader {
-     display: center;
+
+
+div.left{
+    padding-left: 5%;
+    padding-top: 110px;
 }
+
+button {
+    color: #797972;
+    width: 193px;
+    height: 43px;
+    border-radius: 8px;
+}
+
+.downloadbutton button {
+     background: #d399a9;
+   flex: none;
+   margin-top:20px;
+   padding-right: 15px;
+font-family:'nunito',sans-serif;
+    font-size: 18px;
+    color:white;
+    border: #d399a9;
+}
+
+.hiremebutton button {
+    background: white;
+  display: flex;
+    margin-top:20px;
+    padding-right: 15px;
+ font-family:'nunito',sans-serif;
+     font-size: 18px;
+     color: #d399a9;
+     border: 2px solid #d399a9;
+}
+   
+   
