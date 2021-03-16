@@ -63,26 +63,30 @@ section {
     /*height: 95vh;*/
     background-size: cover;
     background-repeat: no-repeat;
+    margin:0 auto;
     
 }
 
 .heroimg{ 
 background-color: #B4D0CB;
-width: 1440px;
+
 height: 900px;
 top: 0px;
 left: -1px;
 box-sizing: border-box;
 }
 
+.handwave {
+    display: flex;
+}
 .right {
     padding-right: 5%;
    padding-top: 5%;
 }
 .heroscene {
-    width: 520px;
-    float: right;  
-    height: 410px;
+    width: 90%;
+    
+
 }
 
 h1 {
@@ -111,7 +115,6 @@ h2 {
 }
 
 
-
 div.left{
     padding-left: 5%;
     padding-top: 110px;
@@ -124,9 +127,9 @@ button {
     border-radius: 8px;
 }
 
-.downloadbutton button {
+.downloadbutton  {
      background: #d399a9;
-   flex: none;
+ 
    margin-top:20px;
    padding-right: 15px;
 font-family:'nunito',sans-serif;
@@ -135,9 +138,9 @@ font-family:'nunito',sans-serif;
     border: #d399a9;
 }
 
-.hiremebutton button {
+.hiremebutton  {
     background: white;
-  display: flex;
+  
     margin-top:20px;
     padding-right: 15px;
  font-family:'nunito',sans-serif;
@@ -145,5 +148,33 @@ font-family:'nunito',sans-serif;
      color: #d399a9;
      border: 2px solid #d399a9;
 }
-   
-   
+
+.herotext-container {
+    display: flex;
+    max-width:1440px;
+    margin: 0 auto;
+}
+
+.hiremebutton button {
+    display: inline-block;
+}
+.grid-container {
+    display: flex;
+    width: 1000 px;
+    margin: 25px auto;
+
+}
+.casestudytext {
+    width:50%;
+    background-color:white;
+    font-family: 'nunito', sans-serif;
+    color: #797976;
+    font-size: 18px;
+}
+.casestudyimg {
+    width:50%;
+    
+} 
+.casestudyimg img {
+    width:100%;
+}
