@@ -165,15 +165,17 @@ font-family:'nunito',sans-serif;
 .grid-container {
     display: flex;
     width: 1000 px;
-    margin: 25px auto;
+    margin: 75px 75px;
 
 }
 .casestudytext {
     width:50%;
     background-color:white;
     font-family: 'nunito', sans-serif;
-    color: #797976;
+    color: #020203;
     font-size: 18px;
+    text-align: left;
+
 
 }
 .casestudyimg {
@@ -191,6 +193,6 @@ font-family:'nunito',sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: #797976;
-    padding: 20px;
+    padding: 30px;
     background-color: #B4D0CB;
   }
