@@ -175,8 +175,10 @@ font-family:'nunito',sans-serif;
     color: #020203;
     font-size: 18px;
     text-align: left;
+}
 
-
+h3, p {
+    
 }
 .casestudyimg {
     width:50%;
