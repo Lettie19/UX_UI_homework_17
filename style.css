@@ -126,6 +126,8 @@ h3 {
 }
 
 
+
+
 div.left{
     padding-left: 5%;
     padding-top: 110px;
@@ -140,17 +142,18 @@ button {
 
 .downloadbutton  {
      background: #d399a9;
- 
    margin-top:20px;
    padding-right: 15px;
-font-family:'nunito',sans-serif;
+   font-family:'nunito',sans-serif;
     font-size: 18px;
     color:white;
     border: #d399a9;
 }
 
-.heroicons {
-    position: right;
+.heroicons2 {
+    position: static;
+    display: flex;
+    margin: 0px 24px;
 }
 
 .herotext-container {
@@ -177,9 +180,6 @@ font-family:'nunito',sans-serif;
     text-align: left;
 }
 
-h3, p {
-    
-}
 .casestudyimg {
     width:50%;
     
@@ -198,3 +198,11 @@ h3, p {
     padding: 30px;
     background-color: #B4D0CB;
   }
+
+  .footer {
+      background-color:#B4D0CB ;
+  }
+
+ .Contact {
+     display: flex;
+ }
