@@ -67,14 +67,7 @@ section {
     
 }
 
-.heroimg{ 
-background-color: #B4D0CB;
 
-height: 900px;
-top: 0px;
-left: -1px;
-box-sizing: border-box;
-}
 
 .handwave {
     display: flex;
@@ -91,7 +84,7 @@ box-sizing: border-box;
 
 h1 {
     text-align: center;
-    color: rgba(123,177,167,0.2);
+    color: rgba(117, 181, 170, 0.2);
 font-family: 'Playfair Display', serif;
 font-weight: bold;
 font-size: 85px;
@@ -100,7 +93,7 @@ font-style: normal;
 text-transform: uppercase;
 position: absolute;
 left: 499px;
-top: 918px;
+top: 100px;
 width: 442px;
 }
 
@@ -125,7 +118,9 @@ h3 {
    
 }
 
-
+.linkedin {
+display: flex;
+}
 
 
 div.left{
@@ -133,28 +128,23 @@ div.left{
     padding-top: 110px;
 }
 
-button {
-    color: #797972;
-    width: 193px;
-    height: 43px;
-    border-radius: 8px;
-}
 
-.downloadbutton  {
-     background: #d399a9;
+
+.ViewCase  {
+     background: transparent;
    margin-top:20px;
-   padding-right: 15px;
+   padding-left: 25px;
    font-family:'nunito',sans-serif;
+   border-radius: 0;
     font-size: 18px;
-    color:white;
-    border: #d399a9;
+    color:#d399a9;
+    border:solid  #d399a9;
 }
 
-.heroicons2 {
-    position: static;
-    display: flex;
-    margin: 0px 24px;
-}
+.Casestudies {
+    margin-top: 400px;
+
+} 
 
 .herotext-container {
     display: flex;
@@ -162,9 +152,7 @@ button {
     margin: 0 auto;
 }
 
-.hiremebutton button {
-    display: inline-block;
-}
+
 .grid-container {
     display: flex;
     width: 1000 px;
@@ -191,12 +179,10 @@ button {
 .casestudyimg img:hover {
     background-color: white rgba(253, 253, 253, 0.334);
 }
-  a:hover {
-    font-size: 18px;
-    text-decoration: none;
+  .projects {
+    text-decoration: underline;
     color: #797976;
-    padding: 30px;
-    background-color: #B4D0CB;
+  
   }
 
   .footer {
