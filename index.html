@@ -12,7 +12,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <style>    
+    <style>
+        
+        body {
+            font-family:sans-serif
+        }
     </style>
 </head>
 <body>
@@ -21,7 +25,7 @@
      <a href="#" class="logo">Leticia Tientcheu</a>
     <ul> 
       <li><a href="#">Home</a></li> 
-      <li><a class="projects" href="#">Projects</a></li> 
+      <li><a href="#">Projects</a></li> 
       <li><a href="#">About</a></li> 
       <li><a href="#">Contact</a></li>
     </ul>
@@ -29,18 +33,53 @@
      </nav>    
  </header>
 </section>
+  <section class="heroimg">
+      <div class="herotext-container">
+        <div class="left">
+           <p> Hey, I'm Leticia</p>
+           <div class="handwave">
+          <img src="images/handwave.png">
+        </div>
+          <p>I solve design problems with empathy and a firm evaluation and assessment of the "why" behind design decisions.</p>
+          <br>Some of my favorite tools to use are Figma, Miro and Adobe XD.</br>
+            
+          <div class="herobuttons"> 
+            <button class="downloadbutton"> Download My CV </button>
+  
+          </div>
 
+          <!-- 
+         <div class="downloadbutton">
+       <button> Download My CV </button>
+       </div>
+       
+       <div class="hiremebutton">
+        <button> Hire Me</button>
+        </div>  -->
+          
+       
+        </div> 
+        <div class="right">
+            <img alt="scene" class="heroscene" src="Images/Scenes06.png">
+        </div>
+      </div>
+      <div class="heroicons">
+         <img src="images/bi_linkedin.png"> 
+         <img src="images/bi_envelope-fill.png"> 
+      </div>
+
+  </section>
   <section class="maincontent">
       <div class="contentheader">
       <h1>PROJECTS</h1>
-
+      <h2>What I've been working on</h2>
       </div>
-      <div class="Casestudies">
+      
       <div class="grid-container">
           <div class="casestudytext">
            <h3> Increasing the ICAF's user engagement</h2>
-            <p>Redesigned this non-profit's website to make it more usable and increase visitors' engagement via donations.</p>
-            <button class="ViewCase"><a class="view"href="https://lettie19.github.io/UX_UI-HW-20/" target="_blank">View Case Study</a></button>
+            <p>Redesigned this non-profit's website to make it more usable and increase visitors' engagement via donations.
+           </p>
           </div>
          <div class="casestudyimg">  
              <img src="images/Casestudy1.png">   
@@ -51,7 +90,6 @@
              <h3> Reimagining an events' reminder mobile App</h3>
               <p>Designed and events reminder app that solves the everyday problems around choosing the right gift and remembering all major occasions in our lives
              </p>
-             <button class="ViewCase">View Case Study</button>
             </div>
          <div class="casestudyimg">  
             <img src="images/Casestudy2.png">   
@@ -62,22 +100,26 @@
              <h3> Placeholder for final case</h3>
               <p>Designed...
              </p>
-             <button class="ViewCase">View Case Study</button>
             </div>
          <div class="casestudyimg">  
             <img src="Images/Rectangle 8.png">   
-        </div> 
-          </div>
+        </div>   
         </div>
     </section>
-      <footer class="footer">
-        <div >
-          <h2>Curious? Questions? Let's Connect!</h2>
-          <h4> </h4>
-          </div>  
+      <footer>
+        <div class="block_element"></div>
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Full Name"></input>
+        <label>Email:</label>
+        <input type="text" placeholder="Email"></input>
+        <label>Message</label>
+        <input type="text" placeholder="Type your message here..."></input>
+        <input class="submit" type="submit" value="Send"></input>
+      </form>
     <div class="heroicons2">
-      <img class="linkedin" src="images/bi_linkedin.png"> 
-      <img class="facebook" src="images/bi_envelope-fill.png"> 
+      <img src="images/bi_linkedin.png"> 
+      <img src="images/bi_envelope-fill.png"> 
    </div>
 </footer>
 </body>
