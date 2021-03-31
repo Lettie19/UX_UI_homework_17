@@ -82,6 +82,10 @@ section {
 
 }
 
+.view {
+    color:#d399a9;
+}
+
 h1 {
     text-align: center;
     color: rgba(117, 181, 170, 0.2);
